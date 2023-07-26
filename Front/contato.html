@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./Imagens/Logo Oficial.png">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="./js/scripts.js"></script>
+    <title>Vigor Plus - Contato</title>
+</head>
+
+<body>
+    <header>
+        <div class="imgLogo">
+            <img src="./Imagens/Logo Oficial.png">
+        </div>
+        <nav>
+            <a href="./index.html">HOME</a>
+            <a href="./sobrenos.html">SOBRE NÓS</a>
+            <a href="./servicos.html">SERVIÇOS</a>
+            <a href="./contato.html">CONTATO</a>
+        </nav>
+        <div id="menu" class="menuMob">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+
+            <div class="menuMob-content">
+                <a href="./index.html">HOME</a>
+                <a href="./sobrenos.html">SOBRE NÓS</a>
+                <a href="./servicos.html">SERVIÇOS</a>
+                <a href="./contato.html">CONTATO</a>
+            </div>
+        </div>
+
+        <button class="menu-button" onclick="openMenu()">
+            <i class="fa-solid fa-bars fa-2x"></i>
+        </button>
+    </header>
+
+    <main>
+        <div class="container-contato-img"></div>
+        <div class="container-contato">
+            <div class="contato">
+                <h1>Entre em contato</h1>
+                <div class="cont">
+                    <div>
+                        <img src="./Imagens/telefone.png" class="img-contato">
+                        <h3>(71) 3641 - 1000</h3>
+                    </div>
+
+                    <div>
+                        <img src="./Imagens/gmail.png" class="img-contato">
+                        <h3>vigorplus@contato.com.br</h3>
+                    </div>
+
+                    <div>
+                        <img src="./Imagens/whatsapp.png" class="img-contato">
+                        <h3>(71) 9.8691-2880</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mensagem">
+                <h1>Deixe a sua mensagem</h1>
+                <form class="form-geral">
+                    <input type="text" id="nome" name="nome" class="form" placeholder="Maria Eduarda">
+                    <br>
+                    <input type="text" id="email" name="email" class="form" placeholder="mariaeduarda6@gmail.com">
+                    <br>
+                    <input type="number" id="telefone" name="telefone" class="form" placeholder="(71)9.7954-3107">
+                    <br>
+                    <textarea placeholder="Mensagem" id="text-men" class="form-area"></textarea>
+                    <button class="enviar">Enviar</button>
+                </form>
+            </div>
+        </div>
+        <div class="mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15744.748369470131!2d-40.50252845!3d-9.4049746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1689985515849!5m2!1spt-BR!2sbr"
+                width="1310" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </main>
+
+    <footer>
+        <div>
+            <img src="./Imagens/facebook.png" alt="imagem facebook">
+        </div>
+        <div>
+            <img src="./Imagens/instagram.png" alt="imagem instagram">
+        </div>
+        <div>
+            <img src="./Imagens/youtube.png" alt="imagem youtube">
+        </div>
+        <div id="copyright">
+            <p>Vigor Plus © 2023 Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

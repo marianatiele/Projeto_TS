@@ -1,0 +1,742 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --corHeaders: #3F4E4F;
+    --corFooter: #2C3639;
+    --corLink: #A27B5C;
+    --corBackgraund: #DCD7C9;
+
+}
+
+/*Header geral*/
+header {
+    height: 9.38rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--corHeaders);
+}
+
+.imgLogo {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgLogo img {
+    width: 9rem;
+    height: 9rem;
+    margin: auto;
+}
+
+nav {
+    display: none;
+}
+
+.menuMob {
+    width: 0;
+    height: 100%;
+    background-color: var(--corHeaders);
+    z-index: 9;
+    position: fixed;
+    right: 0;
+    top: 0;
+    overflow-x: hidden;
+    transition: all 0.5s;
+}
+
+.menu-button {
+    border: none;
+    padding: 8px;
+    background-color: var(--corHeaders);
+    cursor: pointer;
+    margin: 0% 0% 0% 54%;
+}
+
+.menu-button i {
+    color: var(--corLink);
+}
+
+.menuMob-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.menuMob a {
+    padding: 15px;
+    text-decoration: none;
+    color: var(--corLink);
+    display: block;
+    font-size: 25px;
+}
+
+.menuMob a:hover,
+.menuMob a:focus {
+    color: var(--corBackgraund);
+}
+
+.menuMob {
+    position: absolute;
+}
+
+.closebtn {
+    position: absolute;
+    left: 30px;
+    font-size: 60px;
+    top: 25px;
+}
+
+/* página home*/
+
+/* main  */
+
+main {
+    max-height: auto;
+    width: 100%;
+    background-color: var(--corHeaders);
+    color: var(--corBackgraund);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.container-img {
+    height: 100px;
+    width: 100%;
+    background: no-repeat center/cover url(../Imagens/Home2.png);
+}
+
+.container-primario {
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+
+.container-primario h1 {
+    margin: 3rem 0rem;
+}
+
+.container-primario img {
+    height: 26.25rem;
+    width: 100%;
+}
+
+.sec-text {
+    width: 100%;
+    margin-top: 2rem;
+
+}
+
+.sec-text p {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.issoé {
+    height: 50px;
+    width: 100%;
+    background-color: var(--corLink);
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5rem;
+}
+
+.container-fim {
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.fim-text {
+    width: 100%;
+}
+
+.fim-text-li {
+    font-size: 20px;
+    color: var(--corBackgraund);
+    list-style: decimal;
+    text-align: center;
+}
+
+.fim-text-ol {
+    margin: 1rem 0rem 0rem 2rem;
+}
+
+.fim-img {
+    height: 25rem;
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fim-img img {
+    width: 100%;
+    height: 21.9rem;
+}
+
+/* página sobre nós*/
+.main-sobre-servico-planos {
+    background-color: var(--corBackgraund);
+    color: var(--corHeaders);
+}
+
+.sobrenos {
+    width: 90%;
+    padding: 4rem 0rem;
+}
+
+.nos {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.nos p {
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 2rem;
+    line-height: 1.5;
+}
+
+.atividades {
+    width: 100%;
+    text-align: center;
+}
+
+.atividades img {
+    height: 18.75rem;
+    width: 80%;
+    margin-top: 3rem;
+}
+
+hr {
+    width: 100%;
+    border: var(--corLink) 1px solid;
+}
+
+.conteudosobre {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudosobre div {
+    width: 100%;
+    min-height: 15rem;
+    margin: 3rem 0rem;
+    text-align: center;
+}
+
+.conteudosobre p {
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 3rem;
+    line-height: 1.5;
+}
+
+/* página serviços*/
+
+.topoimagem {
+    height: 100px;
+    width: 100%;
+    background: no-repeat center/cover url(../imagens/pexels-leon-ardho-.jpg);
+}
+
+.container,
+.container-planos {
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.container h2 {
+    margin: 1rem 0rem 0rem 0rem;
+}
+
+.container img {
+    height: 30rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.conteudo p {
+    font-size: 20px;
+    width: 100%;
+    text-align: justify;
+    line-height: 1.5;
+    margin-top: 1rem;
+}
+
+.nsPlanos {
+    width: 90%;
+    padding: 3rem 0rem 2rem;
+}
+
+.nsPlanos a {
+    text-decoration: none;
+    color: var(--corHeaders);
+}
+
+/*página planos*/
+
+.container-planos div {
+    width: 80%;
+    height: 15rem;
+    padding: 3rem 0rem;
+    margin: 2rem 0rem;
+    color: var(--corBackgraund);
+    background-color: var(--corFooter);
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.container-planos h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.container-planos h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.formas {
+    width: 90%;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.formas h1 {
+    margin-bottom: 2rem;
+}
+
+.formas p {
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.nsServiços {
+    width: 90%;
+    padding: 3rem 0rem 2rem;
+}
+
+.nsServiços a {
+    text-decoration: none;
+    color: var(--corHeaders);
+}
+
+/*página contato*/
+
+.container-contato-img {
+    width: 100%;
+    height: 100px;
+    background: no-repeat center/cover url(../Imagens/Backgroud-Contato.png);
+}
+
+.container-contato {
+    width: 90%;
+}
+
+.contato {
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.contato h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.cont div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.img-contato {
+    margin-right: 1em;
+    width: 3rem;
+    height: 3rem;
+}
+
+.mensagem {
+    width: 100%;
+    margin-top: 8rem;
+    text-align: center;
+}
+
+.form-geral {
+    margin-top: 5rem;
+}
+
+.form {
+    border: solid var(--corLink);
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    height: 1.563rem;
+    text-align: center;
+    border-radius: 5em;
+}
+
+.form-area {
+    border: solid var(--corLink);
+    text-align: center;
+    width: 100%;
+    height: 6.25rem;
+    border-radius: 2em;
+    resize: none;
+}
+
+.enviar {
+    border: solid var(--corLink);
+    border-radius: 1em;
+    font-weight: bold;
+    padding: 1rem;
+    padding: .5rem;
+    width: 100%;
+    color: var(--corBackgraund);
+    background-color: var(--corHeaders);
+    margin-top: 2rem;
+}
+
+.enviar:hover {
+    background-color: var(--corBackgraund);
+    color: var(--corFooter);
+}
+
+.mapa {
+    width: 100%;
+    height: 12.47rem;
+    margin-top: 10rem;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/*Footer geral*/
+
+footer {
+    background-color: var(--corFooter);
+    height: 7rem;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    border-top: var(--corLink) solid 2px;
+}
+
+footer div {
+    flex-wrap: wrap;
+    padding: 0rem 2rem;
+}
+
+footer img {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+footer #copyright {
+    width: 100%;
+    padding: 5px;
+    font-size: 15px;
+    color: var(--corBackgraund);
+}
+
+#copyright,
+p {
+    width: 100%;
+    text-align: center;
+}
+
+
+/* 480px - 720px */
+@media (min-width: 480px) {
+
+    /*página home */
+
+    .container-img,
+    .topoimagem,
+    .container-contato-img {
+        height: 150px;
+    }
+
+    .container-primario img {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    /*página sobre nós*/
+    /*página serviços*/
+    /*página planos*/
+    /*página contato*/
+
+    .sobrenos,
+    .conteudosobre,
+    .container,
+    .nsPlanos,
+    .container-planos,
+    .nsServiços,
+    .formas,
+    .container-contato {
+        width: 80%;
+    }
+
+    /*página contato*/
+    .mapa {
+        height: 15rem;
+    }
+
+}
+
+/*720px - 1024px */
+@media (min-width: 720px) {
+
+    .menuMob,
+    .menuMob-content,
+    .menu-button {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 70%;
+    }
+
+    nav a {
+        color: var(--corLink);
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    nav a:hover {
+        color: var(--corBackgraund);
+        font-weight: bold;
+    }
+
+    /*página home */
+    .container-img,
+    .topoimagem,
+    .container-contato-img {
+        height: 180px;
+    }
+
+    .container-primario img {
+        width: 50%;
+        float: left;
+        margin-left: 0%;
+    }
+
+    .sec-text {
+        width: 45%;
+        float: right;
+        margin-top: 0rem;
+    }
+
+    .fim-text {
+        height: 100%;
+        width: 58%;
+        float: left;
+    }
+
+    .fim-text-ol {
+        margin: 1rem 0rem 0rem .5rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .fim-img {
+        width: 42%;
+        height: 25rem;
+        margin-top: 0;
+        float: right;
+    }
+
+    /*página sobre nós*/
+    /*página serviços*/
+    /*página planos*/
+    /*página contato*/
+
+    .sobrenos,
+    .container,
+    .container-planos,
+    .formas,
+    .container-contato {
+        width: 90%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .nos {
+        width: 68%;
+        margin-bottom: 0rem;
+        padding-right: 5rem;
+    }
+
+    .atividades {
+        width: 32%;
+    }
+
+    .atividades img {
+        width: 90%;
+    }
+
+    .conteudosobre {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+
+    .conteudosobre div {
+        width: 30%;
+        min-height: 30rem;
+        margin: 3rem 0rem;
+    }
+
+    #pd {
+        margin: 0rem 2rem;
+    }
+
+    /*página serviços*/
+
+    .container img {
+        width: 50%;
+        float: left;
+    }
+
+    .conteudo p {
+        width: 40%;
+        float: right;
+    }
+
+    .nsPlanos {
+        width: 90%;
+    }
+
+    /*página planos*/
+
+    .container-planos div {
+        width: 28%;
+        height: 15rem;
+        padding: 3rem 1rem;
+        margin: 2rem 1rem;
+        font-size: 20px;
+    }
+
+    .container-planos h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container-planos h2 {
+        width: 100%;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .nsServiços {
+        width: 90%;
+    }
+
+    /*página contato*/
+
+    .contato,
+    .mensagem {
+        width: 50%;
+        margin-top: 4rem;
+    }
+
+    .form,
+    .form-area,
+    .enviar {
+        width: 80%;
+    }
+}
+
+/*1024px para cima*/
+
+@media (min-width: 1024px) {
+
+    /*página home */
+    .container-img,
+    .topoimagem,
+    .container-contato-img {
+        height: 300px;
+    }
+
+    .container-primario img {
+        width: 27rem;
+        height: 27rem;
+    }
+
+    .sec-text {
+        width: 50%;
+    }
+
+    /*página serviços*/
+
+    .container img {
+        width: 28.125rem;
+    }
+
+    .conteudo p {
+        width: 50%;
+    }
+
+    /*página planos*/
+
+    .container-planos div {
+        font-size: 25px;
+    }
+
+     /*página contato*/
+     .contato,
+     .mensagem {
+         width: 40%;
+     }
+}
