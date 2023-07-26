@@ -26,17 +26,14 @@ module.exports =  {
             return res.status(400).send({error:'Falhou'})
         }
     },
+    /*
     async update(req, res){
        
     },
-
-
-
-
     async delete(req, res){
     
     
-    }
+    }*/
 
 
 
