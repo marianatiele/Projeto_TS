@@ -10,6 +10,7 @@
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script defer src="./js/scripts.js"></script>
+    <script defer src="./js/PostContato.js"></script>
     <title>Vigor Plus - Contato</title>
 </head>
 
@@ -65,7 +66,7 @@
 
             <div class="mensagem">
                 <h1>Deixe a sua mensagem</h1>
-                <form class="form-geral">
+                <div class="form-geral">
                     <input type="text" id="nome" name="nome" class="form" placeholder="Maria Eduarda">
                     <br>
                     <input type="text" id="email" name="email" class="form" placeholder="mariaeduarda6@gmail.com">
@@ -73,8 +74,8 @@
                     <input type="number" id="telefone" name="telefone" class="form" placeholder="(71)9.7954-3107">
                     <br>
                     <textarea placeholder="Mensagem" id="text-men" class="form-area"></textarea>
-                    <button class="enviar">Enviar</button>
-                </form>
+                    <button class="enviar" onclick="EnviaMeg()">Enviar</button>
+                </div>
             </div>
         </div>
         <div class="mapa">
