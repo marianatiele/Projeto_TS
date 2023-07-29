@@ -1,5 +1,6 @@
 <h2 > Aplicação Web para o processo seletivo da TS </h2> 
 A aplicação Web desenvolvida para o processo seletivo na empresa júnior da UNEB(Universidade Estadual da Bahia) a TecnoSystem.
+A aplicação é para uma academia de calistenia. 
 
 
 
