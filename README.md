@@ -1,4 +1,4 @@
-<h1 align="center"> Aplicação Web para o processo seletivo da TS </h1> 
+<h2 > Aplicação Web para o processo seletivo da TS </h2> 
 A aplicação Web desenvolvida para o processo seletivo na empresa júnior da UNEB(Universidade Estadual da Bahia) a TecnoSystem.
 
 
@@ -8,7 +8,7 @@ A aplicação Web desenvolvida para o processo seletivo na empresa júnior da UN
 * [Status do Projeto](#Finalizado)
 * [Tecnologias utilizadas](#)
 
-<h1 align="center"> Tecnologias utilizadas </h1> 
+<h2> Tecnologias utilizadas </h2> 
 
 <ul>
   <li>JS</li>
@@ -18,4 +18,7 @@ A aplicação Web desenvolvida para o processo seletivo na empresa júnior da UN
   <li>Express</li>
 </ul>
 
-<h1 align="center">Contribuição </h1> 
+<h2 >Contribuição </h2> 
+
+
+|[<img loading="lazy" src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Wallace Sander</sub>]([https://github.com/1Sander])]
