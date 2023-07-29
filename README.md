@@ -5,14 +5,14 @@ A aplicação é para uma academia de calistenia.
 
 
 <h2> :computer: Tecnologias utilizadas </h2> 
+<div>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="60" height="60"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"  width="60" height="60"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"   width="60" height="60"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"  width="60" height="60"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"  width="60" height="60"/>
+</div>
 
-<ul>
-  <li>JS</li>
-  <li>CSS</li>
-  <li> HTML</li>
-  <li> MongoDB</li>
-  <li>Express</li>
-</ul>
 
 <h2 > :wink: Contribuição </h2> 
 
