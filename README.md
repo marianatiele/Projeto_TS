@@ -16,4 +16,4 @@ A aplicação Web desenvolvida para o processo seletivo na empresa júnior da UN
 <h2 >Contribuição </h2> 
 
 
-|[<img loading="Wallace Sander" src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Wallace Sander</sub>]([https://github.com/1Sander])
+|[<sub>Wallace Sander</sub>]([https://github.com/1Sander])
