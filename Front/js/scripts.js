@@ -11,21 +11,31 @@ function ValidaForm(){
     
     let nome = document.getElementById('nome')
     let email = document.getElementById('email').value
-    
-
+    let telefone = document.getElementById('telefone').value
+    let res = document.getElementById('resposta')
+    let respostaNome = document.getElementById('respostaNome')
+    let resTelefone = document.getElementById('respostaTel')
     //Lógica 
     let validaNome = nome.value != 0 && nome.value !== '' && isNaN(nome.value)
+
+    if(isNaN(telefone) == true){
+        resTelefone.innerHTML = 'Telefone Inválido'
+    }
+
+    if(validaNome == false){
+        respostaNome.innerHTML = 'Nome Inválido'
+    }
     let resposta = validaEmail(email)
-    if(resposta == true){
-        console.log('email valido')
+    if(resposta == false){
+
+        res.innerHTML ='email invalido'
     
-    }else{
-        console.log('email invalido')
     }
 
     //Chamando o back de acordo com a validação
     if(validaNome && resposta == true){
         EnviaMeg()
+        alert('Dados Enviados')
     }
 
     

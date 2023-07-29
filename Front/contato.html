@@ -67,14 +67,22 @@
             <div class="mensagem">
                 <h1>Deixe a sua mensagem</h1>
                 <div class="form-geral">
-                    <input type="text" id="nome" name="nome" class="form" placeholder="Maria Eduarda">
+                    <input type="text" id="nome" name="nome" class="form" placeholder="Maria Eduarda" required>
+                    
+                    <br>
+                    <span id="respostaNome"> </span>
                     <br>
                     <input type="text" id="email" name="email" class="form" placeholder="mariaeduarda6@gmail.com">
                     <br>
-                    <input type="number" id="telefone" name="telefone" class="form" placeholder="(71)9.7954-3107">
+                    <span id="resposta"> </span>
+                    <br>
+                    <input type="text" id="telefone" name="telefone" class="form" placeholder="(71)9.7954-3107">
+                    <br>
+                    <span id="respostaTel"> </span>
                     <br>
                     <textarea placeholder="Mensagem" id="text-men" class="form-area"></textarea>
                     <button class="enviar" onclick=" ValidaForm()">Enviar</button>
+                
                 </div>
             </div>
         </div>
