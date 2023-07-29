@@ -17,4 +17,7 @@ A aplicação é para uma academia de calistenia.
 <h2 >Contribuição </h2> 
 
 <a href="https://github.com/1Sander">Wallace Sander</a>
+<h2 >Acesse o Projeto</h2> 
+
+<a href= "https://github.com/MariaNatiele/Projeto_TS">ProjetoTS</a>
 
