@@ -3,11 +3,6 @@ A aplicação Web desenvolvida para o processo seletivo na empresa júnior da UN
 
 
 
-* [Título ](#Aplicação Web para o processo seletivo da TS)
-* [Descrição do Projeto](#Aplicação WEB para uma academia de Calistenia )
-* [Status do Projeto](#Finalizado)
-* [Tecnologias utilizadas](#)
-
 <h2> Tecnologias utilizadas </h2> 
 
 <ul>
@@ -21,4 +16,4 @@ A aplicação Web desenvolvida para o processo seletivo na empresa júnior da UN
 <h2 >Contribuição </h2> 
 
 
-|[<img loading="lazy" src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Wallace Sander</sub>]([https://github.com/1Sander])]
+|[<img loading="Wallace Sander" src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Wallace Sander</sub>]([https://github.com/1Sander])
