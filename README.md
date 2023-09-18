@@ -20,6 +20,8 @@ A aplicação é para uma academia de calistenia.
 </br>
 <a href="https://github.com/1Sander">Wallace Sander</a>
 </br>
+<a href="#">Clevison Ferreira</a>
+</br>
 
 ###  :open_file_folder: Acesse o Projeto
 </br>
